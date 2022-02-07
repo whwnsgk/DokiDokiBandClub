@@ -5,19 +5,13 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-
-
-
-
-
 public class start2 : MonoBehaviour
 {
     public int EdPoint = 0;
     bool isAlive = true;
     
 
-
-[SerializeField] private SpriteRenderer sprite_StandingCG;
+    [SerializeField] private SpriteRenderer sprite_StandingCG;
     [SerializeField] private SpriteRenderer sprite_DialogueBox;
     [SerializeField] private Text txt_Dialogue;
 
@@ -66,6 +60,7 @@ public class start2 : MonoBehaviour
 
         
     }
+
     public void button2()
     {
         SceneManager.LoadScene("start4");
@@ -75,7 +70,6 @@ public class start2 : MonoBehaviour
 
 
     void Update()
-
     {
 
 
@@ -86,9 +80,7 @@ public class start2 : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     if (count < dialogue.Length)
-
                         NextDialogue();
-
                     else
                         SceneManager.LoadScene("start2");
 
