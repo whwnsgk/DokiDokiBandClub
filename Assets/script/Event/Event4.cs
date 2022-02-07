@@ -77,7 +77,6 @@ public class Event4 : MonoBehaviour
     }
 
     void Update()
-
     {
 
 
@@ -88,10 +87,9 @@ public class Event4 : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     if (count < dialogue.Length)
-
                         NextDialogue();
-                    else
-                        SceneManager.LoadScene("SecondEvent");
+                    //else
+                        //SceneManager.LoadScene("SecondEvent");
 
                 }
 

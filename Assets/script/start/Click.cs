@@ -11,4 +11,13 @@ public class Click : MonoBehaviour
         SceneManager.LoadScene("start1");
     }
 
+    public void LoadScene()
+    {
+        if (PlayerPrefs.HasKey("SceneName"))
+        {
+            string SceneName = PlayerPrefs.GetString("SceneName");
+            SceneManager.LoadScene(SceneName);
+        }
+    }
+
 }
