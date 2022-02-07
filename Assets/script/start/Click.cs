@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 public class Click : MonoBehaviour
 {
     
-  public void SceneChange()
+    public void SceneChange()
     {
-        
-            SceneManager.LoadScene("start1");
+        SceneManager.LoadScene("start1");
     }
 
 }
