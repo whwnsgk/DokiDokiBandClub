@@ -57,10 +57,10 @@ public class Event1 : MonoBehaviour
 
     public void button1() // 정답
     {
+        GameManager.LovePoint++;
+        Debug.Log("엔딩 포인트: " + GameManager.LovePoint);
+
         SceneManager.LoadScene("Event2");
-        start2 start2 = GameObject.Find("Sprite Canvas").GetComponent<start2>();
-        start2.EdPoint++;
-        Debug.Log(start2.EdPoint);
 
     }
     public void button2() // 오답

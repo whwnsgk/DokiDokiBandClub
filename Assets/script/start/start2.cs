@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class start2 : MonoBehaviour
 {
-    public int EdPoint = 0;
     bool isAlive = true;
     
 
@@ -63,9 +62,10 @@ public class start2 : MonoBehaviour
 
     public void button2()
     {
+        GameManager.LovePoint++;
+        Debug.Log("엔딩 포인트: " + GameManager.LovePoint);
+
         SceneManager.LoadScene("start4");
-        EdPoint++;
-        Debug.Log(EdPoint);
     }
 
 
