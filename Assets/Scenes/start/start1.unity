@@ -241,7 +241,6 @@ MonoBehaviour:
   sprite_StandingCG: {fileID: 1525210379}
   image_DialogueBox: {fileID: 677504850}
   txt_Dialogue: {fileID: 1845389678}
-  ShowImageCount: 4
   dialogue:
   - dialogue: "\uB0B4\uC774\uB984\uC740 \uC774\uC7AC\uC6D0 \uC62C\uD574 \uB300\uD559\uAD50\uC5D0
       \uC785\uD559\uD574\uC11C \uB3D9\uC544\uB9AC\uC5D0 \uB4E4\uC5B4\uC624\uAC8C
@@ -740,7 +739,7 @@ GameObject:
   - component: {fileID: 2096599223}
   - component: {fileID: 2096599222}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Guitar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
