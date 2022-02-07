@@ -14,13 +14,10 @@ public class Dialogue
 }
 
 
-
 public class start1 : MonoBehaviour
 {
-   
-
     [SerializeField] private SpriteRenderer sprite_StandingCG;
-    [SerializeField] private SpriteRenderer sprite_DialogueBox;
+    [SerializeField] private Image image_DialogueBox;
     [SerializeField] private Text txt_Dialogue;
 
     private bool isDialogue = false;
@@ -30,15 +27,12 @@ public class start1 : MonoBehaviour
 
     void Start()
     {
-
-            ShowDialogue();
-       
+        ShowDialogue();
     }
 
-   
     public void ShowDialogue()
     {
-        sprite_DialogueBox.gameObject.SetActive(true);
+        image_DialogueBox.gameObject.SetActive(true);
         sprite_StandingCG.gameObject.SetActive(true);
         txt_Dialogue.gameObject.SetActive(true);
 
@@ -49,7 +43,7 @@ public class start1 : MonoBehaviour
 
     private void HideDialogue()
     {
-        sprite_DialogueBox.gameObject.SetActive(false);
+        image_DialogueBox.gameObject.SetActive(false);
         sprite_StandingCG.gameObject.SetActive(false);
         txt_Dialogue.gameObject.SetActive(false);
         isDialogue = false;
@@ -63,34 +57,21 @@ public class start1 : MonoBehaviour
     }
 
     void Update()
-
     {
-
-
         if (isDialogue)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (count < dialogue.Length)
                     NextDialogue();
-
                 else
                     SceneManager.LoadScene("start2");
-
-
-
             }
-
         }
 
         if (count == 4)
-
-            GameObject.Find("Sprite Canvas").transform.Find("Image").gameObject.SetActive(true);
-
+            GameObject.Find("Sprite Canvas").transform.Find("Guitar").gameObject.SetActive(true);
         else
-
-            GameObject.Find("Sprite Canvas").transform.Find("Image").gameObject.SetActive(false);
-
-
+            GameObject.Find("Sprite Canvas").transform.Find("Guitar").gameObject.SetActive(false);
     }
 }
