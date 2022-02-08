@@ -12,7 +12,7 @@ public class start4 : MonoBehaviour
 
 
     [SerializeField] private SpriteRenderer sprite_StandingCG;
-    [SerializeField] private SpriteRenderer sprite_DialogueBox;
+    [SerializeField] private Image Image_DialogueBox;
     [SerializeField] private Text txt_Dialogue;
 
     private bool isDialogue = false;
@@ -30,7 +30,7 @@ public class start4 : MonoBehaviour
 
     public void ShowDialogue()
     {
-        sprite_DialogueBox.gameObject.SetActive(true);
+        Image_DialogueBox.gameObject.SetActive(true);
         sprite_StandingCG.gameObject.SetActive(true);
         txt_Dialogue.gameObject.SetActive(true);
 
@@ -41,7 +41,7 @@ public class start4 : MonoBehaviour
 
     private void HideDialogue()
     {
-        sprite_DialogueBox.gameObject.SetActive(false);
+        Image_DialogueBox.gameObject.SetActive(false);
         sprite_StandingCG.gameObject.SetActive(false);
         txt_Dialogue.gameObject.SetActive(false);
         isDialogue = false;
