@@ -13,7 +13,7 @@ public class Event3 : MonoBehaviour
 
 
     [SerializeField] private SpriteRenderer sprite_StandingCG;
-    [SerializeField] private SpriteRenderer sprite_DialogueBox;
+    [SerializeField] private Image sprite_DialogueBox;
     [SerializeField] private Text txt_Dialogue;
 
     private bool isDialogue = false;
