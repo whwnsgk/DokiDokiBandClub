@@ -5,7 +5,7 @@ using UnityEngine;
 public class buttonGenerator : MonoBehaviour
 {
     public GameObject buttonPrefab;
-    float span = 1.0f ;
+    float span = 2.0f ;
     float delta = 0;
     
 
