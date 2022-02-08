@@ -17,6 +17,10 @@ public class Click : MonoBehaviour
         {
             string SceneName = PlayerPrefs.GetString("SceneName");
             SceneManager.LoadScene(SceneName);
+
+
+            GameManager.LovePoint = PlayerPrefs.GetInt("SvLovePoints");
+
         }
     }
 

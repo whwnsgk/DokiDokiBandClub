@@ -9,5 +9,9 @@ public class saveButton : MonoBehaviour
     {
         string SceneName = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("SceneName", SceneName);
+
+        int SvLovePoint = GameManager.LovePoint;
+        PlayerPrefs.SetInt("SvLovePoints",SvLovePoint);
+
     }
 }
