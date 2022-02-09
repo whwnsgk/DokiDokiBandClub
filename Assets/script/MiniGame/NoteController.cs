@@ -15,13 +15,13 @@ public class NoteController : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0, -0.05f, 0);
+        transform.Translate(0, -0.03f, 0);
 
-        if (transform.position.y < -5.0f)
+       /* if (transform.position.y < -5.0f)
         {
             Destroy(gameObject);
         }
-
+        */
 
         Vector2 p1 = transform.position;
         Vector2 p2 = this.player.transform.position;

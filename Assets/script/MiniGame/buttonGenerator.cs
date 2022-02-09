@@ -5,7 +5,7 @@ using UnityEngine;
 public class buttonGenerator : MonoBehaviour
 {
     public GameObject buttonPrefab;
-    float span = 2.0f ;
+    float span = 0.05f ;
     float delta = 0;
     
 
@@ -16,7 +16,7 @@ public class buttonGenerator : MonoBehaviour
         {
             this.delta = 0;
             GameObject go = Instantiate(buttonPrefab) as GameObject;
-            int px = Random.Range(-6, 7);
+            int px = Random.Range(-2, 2);
             go.transform.position = new Vector3(px, 7, 0);
         }
     }
