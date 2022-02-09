@@ -244,9 +244,9 @@ MonoBehaviour:
   txt_Dialogue: {fileID: 995578773}
   dialogue:
   - dialogue: "\uB300\uD654\uB97C \uB098\uB204\uB294\uC911"
-    cg: {fileID: 21300000, guid: 35b8f05ab2ea65b40b6a053273c82e7e, type: 3}
+    cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
   - dialogue: "\uC5EC\uAE30\uC11C \uBB38\uC81C\uB0B4\uBA74 \uB428"
-    cg: {fileID: 21300000, guid: 7cc7e4f705db9104883eaeacbc064c58, type: 3}
+    cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
 --- !u!1 &628049810
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525210378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 258, y: -46, z: 0}
+  m_LocalPosition: {x: 230, y: -46, z: 0}
   m_LocalScale: {x: 74.19154, y: 61.521065, z: 44.4}
   m_Children: []
   m_Father: {fileID: 253189799}

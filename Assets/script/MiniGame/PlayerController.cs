@@ -13,11 +13,11 @@ public class PlayerController : MonoBehaviour
    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.LeftArrow))
+        if(Input.GetKeyDown(KeyCode.Z))
         {
             transform.Translate(-3,0,0);
         }
-        if(Input.GetKeyDown(KeyCode.RightArrow))
+        if(Input.GetKeyDown(KeyCode.X))
         {
             transform.Translate(3,0,0);
         }
