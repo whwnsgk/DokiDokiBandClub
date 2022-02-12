@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FailLine
+  - Note
+  - Zkey
+  - Xkey
+  - Nkey
+  - Mkey
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
    
     void Update()
     {
+        /*
         if(Input.GetKeyDown(KeyCode.Z))
         {
             transform.Translate(-3,0,0);
@@ -21,6 +22,12 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(3,0,0);
         }
-        
+        */
+
+       
     }
+
+    
+    
+
 }
