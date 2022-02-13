@@ -323,14 +323,30 @@ MonoBehaviour:
   sprite_DialogueBox: {fileID: 1934063568}
   txt_Dialogue: {fileID: 164231681}
   dialogue:
-  - dialogue: "\uB108 \uD53C\uD06C\uB3C4 \uC5C9\uB9DD\uC774\uACE0 \uC1FC\uD551\uC880
-      \uAC00\uC790"
-    cg: {fileID: 21300000, guid: 9a62490e8c0fe07448c1d42b484efacf, type: 3}
-  - dialogue: "\uB0B4\uD53C\uD06C\uAC00 \uC65C?"
-    cg: {fileID: 21300000, guid: e7572dd8ad4c62c49a497d488bdf06e8, type: 3}
-  - dialogue: "\u3132\u3132\u3132\u3132\u3131"
+  - dialogue: "4\uC6D4 12\uC77C"
     cg: {fileID: 0}
-  - dialogue: "\u3132\u3132\u3132\u3132\u3131"
+  - dialogue: "\uC790\uCDE8\uBC29"
+    cg: {fileID: 0}
+  - dialogue: "\uD53C\uD06C\uC880 \uBC14\uAFD4\uC918!!"
+    cg: {fileID: 21300000, guid: e5e49c915bd175247a5961b8a35f049a, type: 3}
+  - dialogue: "\uD55C\uB2EC\uB3D9\uC548 \uC5F0\uC2B5\uD558\uBA74\uC11C \uBCC4\uB9D0
+      \uC5C6\uC5C8\uC796\uC544?"
+    cg: {fileID: 0}
+  - dialogue: "\uB0A0 \uC790\uAFB8 \uCFE1\uCFE1 \uCC0C\uB978\uB2E8 \uB9D0\uC57C!"
+    cg: {fileID: 21300000, guid: e5e49c915bd175247a5961b8a35f049a, type: 3}
+  - dialogue: "(\uD53C\uD06C\uB294 \uC6D0\uB798 \uB110 \uCFE1\uCFE1 \uCC0C\uB974\uC9C0
+      \uC54A\uB098?)"
+    cg: {fileID: 0}
+  - dialogue: "(\uD558\uC9C0\uB9CC \uC785\uBC16\uC5D0 \uAEBC\uB0C8\uB2E4\uAC04 \uC090\uC9C0\uACA0\uC9C0....?)"
+    cg: {fileID: 0}
+  - dialogue: "\uD558\uC9C0\uB9CC \uC9C0\uAE08 \uC4F0\uB294 \uD53C\uD06C\uAC00 \uC190\uC5D0
+      \uC775\uC740\uC9C0 \uC5BC\uB9C8 \uC548\uC9C0\uB0AC\uB294\uB370.. \uBC14\uAFB8\uBA74
+      \uB2E4\uC2DC \uC801\uC751\uD558\uB290\uB77C \uC5F0\uC2B5\uC774 \uC798 \uC548\uB418\uC9C4
+      \uC54A\uC744\uAE4C...?"
+    cg: {fileID: 0}
+  - dialogue: "\uD558\uC9C0\uB9CC....."
+    cg: {fileID: 0}
+  - dialogue: "\uC5B4\uB5BB\uAC8C \uD560\uAE4C?"
     cg: {fileID: 0}
 --- !u!1 &347435401
 GameObject:
@@ -560,7 +576,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC1FC\uD551\uD558\uB7EC \uAC00\uC790"
+  m_Text: "\uC774\uCC38\uC5D0 \uBC14\uAFB8\uC9C0\uBB50!"
 --- !u!222 &1035237554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -639,7 +655,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBB34\uC2A8\uC1FC\uD551\uC774\uC57C \uADF8\uB0E5 \uD559\uAD50\uB098 \uAC00\uC790"
+  m_Text: "\uAD1C\uCC2E\uACA0\uC9C0\uBB50 \uADF8\uB0E5 \uC5F0\uC2B5\uC2E4\uC774\uB098
+    \uAC00\uC790"
 --- !u!222 &1073074613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -705,7 +722,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 62f6d9cee8e7c964a8b2cdf5ff9d00ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7bd5d3b88f9cdbd40a8cdf269882ce8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -724,8 +741,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191098472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1238, y: 0.0776, z: 0}
-  m_LocalScale: {x: 2.1255362, y: 2.0778887, z: 1}
+  m_LocalPosition: {x: 1.2318, y: 0.0094, z: 0}
+  m_LocalScale: {x: 1.7853198, y: 1.2669777, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -939,8 +956,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525210378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 258, y: -46, z: 0}
-  m_LocalScale: {x: 74.19154, y: 61.521065, z: 44.4}
+  m_LocalPosition: {x: -2, y: 5.55, z: 0}
+  m_LocalScale: {x: 71.22388, y: 79.97738, z: 44.4}
   m_Children: []
   m_Father: {fileID: 253189799}
   m_RootOrder: 0

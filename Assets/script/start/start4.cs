@@ -68,7 +68,7 @@ public class start4 : MonoBehaviour
 
                 else
                     SceneManager.LoadScene("start5");
-                    GameObject.Destroy(GameObject.Find("BGM player"));
+                   
 
 
 

@@ -55,11 +55,13 @@ public class NoteController : MonoBehaviour
 
         {
             Destroy(gameObject);
-            Debug.Log("½ÇÆÐ");
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½");
             GameObject.Find("Canvas").transform.Find("verysad").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.FindChild("happy").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.FindChild("bad").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.FindChild("perfect").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("happy").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("bad").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("perfect").gameObject.SetActive(false);
+
+            
 
 
 
@@ -67,41 +69,58 @@ public class NoteController : MonoBehaviour
         else if (collision.gameObject.tag == "Zkey")
         {
                Destroy(gameObject);
-               Debug.Log("¼º°ø");
-               GameObject.Find("Canvas").transform.FindChild("happy").gameObject.SetActive(true);
+               Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+               GameObject.Find("Canvas").transform.Find("happy").gameObject.SetActive(true);
                GameObject.Find("Canvas").transform.Find("verysad").gameObject.SetActive(false);
-               GameObject.Find("Canvas").transform.FindChild("perfect").gameObject.SetActive(true);
-               GameObject.Find("Canvas").transform.FindChild("bad").gameObject.SetActive(false);
+               GameObject.Find("Canvas").transform.Find("perfect").gameObject.SetActive(true);
+               GameObject.Find("Canvas").transform.Find("bad").gameObject.SetActive(false);
+
+            GameManager.MiniGamePoint++;
+            Debug.Log(GameManager.MiniGamePoint);
+
         }
 
         else if (collision.gameObject.tag == "Xkey")
         {
             Destroy(gameObject);
-            Debug.Log("¼º°ø");
-            GameObject.Find("Canvas").transform.FindChild("happy").gameObject.SetActive(true);
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+            GameObject.Find("Canvas").transform.Find("happy").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("verysad").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.FindChild("perfect").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.FindChild("bad").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("perfect").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("bad").gameObject.SetActive(false);
+
+            GameManager.MiniGamePoint++;
+            Debug.Log(GameManager.MiniGamePoint);
+
         }
 
         else if (collision.gameObject.tag == "Nkey")
         {
             Destroy(gameObject);
-            Debug.Log("¼º°ø");
-            GameObject.Find("Canvas").transform.FindChild("happy").gameObject.SetActive(true);
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+            GameObject.Find("Canvas").transform.Find("happy").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("verysad").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.FindChild("perfect").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.FindChild("bad").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("perfect").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("bad").gameObject.SetActive(false);
+
+            GameManager.MiniGamePoint++;
+            Debug.Log(GameManager.MiniGamePoint);
+
         }
 
         else if (collision.gameObject.tag == "Mkey")
         {
             Destroy(gameObject);
-            Debug.Log("¼º°ø");
-            GameObject.Find("Canvas").transform.FindChild("happy").gameObject.SetActive(true);
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½");
+            GameObject.Find("Canvas").transform.Find("happy").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("verysad").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.FindChild("perfect").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.FindChild("bad").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("perfect").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("bad").gameObject.SetActive(false);
+
+            GameManager.MiniGamePoint++;
+            Debug.Log(GameManager.MiniGamePoint);
+
+
         }
     }
 

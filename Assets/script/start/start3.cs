@@ -70,7 +70,7 @@ public class start3 : MonoBehaviour
                 else
                     SceneManager.LoadScene("start5");
 
-                    GameObject.Destroy(GameObject.Find("BGM player"));
+                   
 
             }
 

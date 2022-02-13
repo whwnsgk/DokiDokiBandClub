@@ -89,7 +89,7 @@ public class start2 : MonoBehaviour
             }
         }
 
-        if (count == 4)
+        if (count == 14)
         {
             GameObject.Find("Sprite Canvas").transform.Find("Button1").gameObject.SetActive(true);
             GameObject.Find("Sprite Canvas").transform.Find("Button2").gameObject.SetActive(true);

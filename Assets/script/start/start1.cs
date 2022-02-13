@@ -69,7 +69,7 @@ public class start1 : MonoBehaviour
             }
         }
 
-        if (count == 4)
+        if (count == 8)
             GameObject.Find("Sprite Canvas").transform.Find("Guitar").gameObject.SetActive(true);
         else
             GameObject.Find("Sprite Canvas").transform.Find("Guitar").gameObject.SetActive(false);

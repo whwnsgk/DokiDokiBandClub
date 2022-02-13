@@ -90,7 +90,7 @@ public class Event1 : MonoBehaviour
             }
         }
         
-        if (count == 2)
+        if (count == 3)
 
             GameObject.Find("Sprite Canvas").transform.Find("Image").gameObject.SetActive(true);
 
@@ -100,7 +100,7 @@ public class Event1 : MonoBehaviour
 
      
 
-        if (count == 3)
+        if (count == 10)
         {
             GameObject.Find("Sprite Canvas").transform.Find("Button1").gameObject.SetActive(true);
             GameObject.Find("Sprite Canvas").transform.Find("Button2").gameObject.SetActive(true);

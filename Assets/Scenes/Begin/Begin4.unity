@@ -241,8 +241,19 @@ MonoBehaviour:
   sprite_DialogueBox: {fileID: 818856016}
   txt_Dialogue: {fileID: 774567653}
   dialogue:
-  - dialogue: "\uD2C0\uB838\uB2E4 \uB10C \uB178\uB2F5\uC774"
-    cg: {fileID: 21300000, guid: 7cc7e4f705db9104883eaeacbc064c58, type: 3}
+  - dialogue: "\uBB50!!?"
+    cg: {fileID: 21300000, guid: 822978e239bc7f6408077a190fea3fd0, type: 3}
+  - dialogue: "\uC544..\uC544\uB2C8\uC57C! \uB0B4\uAC00 \uC778\uD130\uB137\uC5D0\uC11C
+      \uBCF8 \uAE30\uD0C0\uB791 \uCC29\u3131!"
+    cg: {fileID: 0}
+  - dialogue: "\uBB50\uC5B4\uC5B4\uC5B4\uC5B4\uC5B4\uC5B4?!!!!"
+    cg: {fileID: 21300000, guid: 822978e239bc7f6408077a190fea3fd0, type: 3}
+  - dialogue: "\uBBF8\uC548..!! \uB0B4\uAC00 \uC798\uBABB\uD588\uC5B4!"
+    cg: {fileID: 0}
+  - dialogue: "\uC5D0\uD734.. \uB410\uC5B4"
+    cg: {fileID: 21300000, guid: 76820b67e351a944a933bc82280fa3ae, type: 3}
+  - dialogue: "\uADF8\uB0E5 \uC5F0\uC2B5\uC774\uB098 \uD558\uC790."
+    cg: {fileID: 21300000, guid: 17b375fa8a793e14dae2a0f921b484b1, type: 3}
 --- !u!1 &628049810
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,8 +650,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525210378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 258, y: -46, z: 0}
-  m_LocalScale: {x: 74.19154, y: 61.521065, z: 44.4}
+  m_LocalPosition: {x: -1.21, y: 0.75, z: 0}
+  m_LocalScale: {x: 71.18678, y: 79.362175, z: 44.4}
   m_Children: []
   m_Father: {fileID: 253189799}
   m_RootOrder: 0

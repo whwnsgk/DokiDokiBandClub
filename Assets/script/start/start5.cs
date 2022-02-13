@@ -9,6 +9,10 @@ using UnityEngine.SceneManagement;
 
 public class start5 : MonoBehaviour
 {
+    void Awake()
+    {
+        GameObject.Destroy(GameObject.Find("BGM player"));
+    }
 
 
     [SerializeField] private SpriteRenderer sprite_StandingCG;

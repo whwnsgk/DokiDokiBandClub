@@ -105,7 +105,7 @@ public class Event3 : MonoBehaviour
 
      
          */
-        if (count == 2)
+        if (count == 19)
         {
             GameObject.Find("Sprite Canvas").transform.Find("Button1").gameObject.SetActive(true);
             GameObject.Find("Sprite Canvas").transform.Find("Button2").gameObject.SetActive(true);

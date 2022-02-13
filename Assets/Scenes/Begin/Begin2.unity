@@ -243,10 +243,78 @@ MonoBehaviour:
   sprite_DialogueBox: {fileID: 846623656}
   txt_Dialogue: {fileID: 995578773}
   dialogue:
-  - dialogue: "\uB300\uD654\uB97C \uB098\uB204\uB294\uC911"
+  - dialogue: "\uB208\uC55E\uC5D0 \uC6EC \uC5EC\uC790\uC560\uAC00 \uC11C\uC788\uC5C8\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "....\uC5B4?"
+    cg: {fileID: 0}
+  - dialogue: "??? : \uC548\uB155?"
+    cg: {fileID: 21300000, guid: 17b375fa8a793e14dae2a0f921b484b1, type: 3}
+  - dialogue: "\uB204\uAD6C...\uC138\uC694?"
+    cg: {fileID: 0}
+  - dialogue: "\uC640...\uB108\uBB34\uD574...."
+    cg: {fileID: 21300000, guid: 783f0a2429fe5294ab6690163db8ef43, type: 3}
+  - dialogue: "\uC5B4\uB5BB\uAC8C \uB0A0 \uBABB\uC54C\uC544 \uBCFC\uC218\uAC00 \uC788\uC5B4?"
+    cg: {fileID: 21300000, guid: 783f0a2429fe5294ab6690163db8ef43, type: 3}
+  - dialogue: "\uB0B4 20\uB144 \uC778\uC0DD \uD1B5\uD2C0\uC5B4\uC11C \uC774\uB807\uAC8C
+      \uADC0\uC5EC\uC6B4 \uC544\uC774\uB97C \uBCF8\uC801\uC774 \uC788\uC744\uB9AC\uAC00...."
+    cg: {fileID: 0}
+  - dialogue: "\uC5EC\uC790\uC758 \uB4A4\uC5D0 \uC788\uC5B4\uC57C\uD560 \uD504\uB808\uC774\uAC00
+      \uBCF4\uC774\uC9C0 \uC54A\uB294\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "\uC5EC\uC790\uC544\uC774\uC758 \uC637\uC744 \uC790\uC138\uD788 \uBCF4\uB2C8
+      \uD504\uB808\uC774\uB97C \uC0C9\uC744 \uB2EE\uC558\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "\uC544\uB2C8 \uC544\uBB34\uB9AC \uADF8\uB798\uB3C4 \uADF8\uB807\uC9C0
+      \uC124\uB9C8...."
+    cg: {fileID: 0}
+  - dialogue: "??? : \uD765! \uAD1C\uD788 \uB098\uC654\uC5B4 \uB124\uAC00 \uB108\uBB34
+      \uC6B0\uC6B8\uD574 \uD558\uAE38\uB798 \uB0B4\uAC00 \uB3C4\uC6C0\uC880 \uC904\uAE4C
+      \uD588\uB294\uB370 \uB9D0\uC774\uC9C0"
+    cg: {fileID: 21300000, guid: e5e49c915bd175247a5961b8a35f049a, type: 3}
+  - dialogue: "\uC124\uB9C8.. \uB108 \uD504\uB808\uC774\uC57C?"
+    cg: {fileID: 0}
+  - dialogue: "\uB410\uC5B4!"
+    cg: {fileID: 21300000, guid: e5e49c915bd175247a5961b8a35f049a, type: 3}
+  - dialogue: .....
+    cg: {fileID: 21300000, guid: 17b375fa8a793e14dae2a0f921b484b1, type: 3}
+  - dialogue: "\uAC11\uC790\uAE30 \uC5EC\uC790\uC560\uAC00 \uB0B4 \uB208\uC55E\uC5D0
+      \uC788\uB294\uAC83\uB3C4 \uC774\uC0C1\uD55C \uC77C\uC774\uC9C0\uB9CC"
+    cg: {fileID: 0}
+  - dialogue: "\uD504\uB808\uC774\uAC00 \uC774 \uC5EC\uC790\uC560\uB77C\uB294\uAC8C
+      \uB9D0\uC774 \uC548\uB418\uC796\uC544!"
+    cg: {fileID: 0}
+  - dialogue: "\uADF8\uB54C \uC5EC\uC790\uC560\uAC00 \uC785\uC744\uC5F4\uC5C8\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "\uB2C8\uAC00 \uB0A0 \uC0AC\uACE0 \uC9D1\uC5D0 \uB3CC\uC544\uC628\uB0A0
+      \uBD80\uBAA8\uB2D8\uD55C\uD14C \uC2EC\uD558\uAC8C \uAE68\uC838\uC11C\uB294
+      \uB0A0 \uBD80\uB465\uCF1C \uC548\uACE0 \uD391\uD391 \uC6B8\uC5B4\uB314\uC5C8\uC9C0
+      \uC544\uB9C8?"
     cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
-  - dialogue: "\uC5EC\uAE30\uC11C \uBB38\uC81C\uB0B4\uBA74 \uB428"
+  - dialogue: "\"\uAE30\uB2E4\uB824\uC918 \uD504\uB808\uC774.... 3\uB144\uD6C4\uC5D0
+      \uB110 \uB300\uB9AC\uB7EC \uC62C\uD14C\uB2C8\uAE4C!.... \""
     cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
+  - dialogue: "\uADF8\uB54C \uC815\uB9D0 \uAC10\uB3D9\uBA39\uC5C8\uC9C0 \uBB50\uC57C~"
+    cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
+  - dialogue: "\uC790..\uC7A0\uAE50\uB9CC!.. \uADF8\uAC78 \uB2C8\uAC00 \uC5B4\uB5BB\uAC8C
+      \uC54C....!"
+    cg: {fileID: 0}
+  - dialogue: "\uADF8\uB9AC\uACE0 \uC218\uB2A5\uC774 \uB05D\uB098\uC790 \uB9C8\uC790
+      \uB2EC\uB824\uC640\uC11C\uB294 \uC774\uB807\uAC8C \uB9D0\uD588\uC5C8\uC9C0?"
+    cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
+  - dialogue: "\"\uB2E4\uC2DC\uB294 \uB5A8\uC5B4\uC9C0\uC9C0 \uC54A\uC744\uAEBC\uC57C!
+      \uC0AC\uB791\uD574! \" \uB77C\uACE0 \uB9D0\uC774\uC57C"
+    cg: {fileID: 21300000, guid: 239c7d0e545982f46b4d42f84b260438, type: 3}
+  - dialogue: "\uC73C\uC544\uC544\uC544\uC544\uC544\uC545! \uC78A\uC5B4\uC918 \uC81C\uBC1C!"
+    cg: {fileID: 0}
+  - dialogue: "\uC54C\uC558\uC5B4! \uC54C\uC558\uB2E4\uACE0 ! \uB2C8\uAC00 \uD504\uB808\uC774\uC778\uAC70
+      \uC54C\uC558\uC73C\uB2C8\uAE4C \uC81C\uBC1C \uADF8\uB9CC\uD574!"
+    cg: {fileID: 0}
+  - dialogue: "\uC774\uB7EC\uB2E4 \uC815\uB9D0 \uC8FD\uACA0\uB2E4.."
+    cg: {fileID: 0}
+  - dialogue: "\uADF8\uB7FC \uB0B4\uAC00 \uBB34\uC2A8\uAE30\uC885\uC778\uC9C0 \uB9DE\uCD94\uBA74?~"
+    cg: {fileID: 21300000, guid: e5e49c915bd175247a5961b8a35f049a, type: 3}
+  - dialogue: "\uAE30... \uAE30\uC885? \uD504\uB808\uC774\uC758 \uAE30\uC885\uC774?"
+    cg: {fileID: 0}
 --- !u!1 &628049810
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +623,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC815\uB2F5\uBC84\uD2BC"
+  m_Text: "\uB808\uC2A4\uD3F4"
 --- !u!222 &1035237554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -634,7 +702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC624\uB2F5\uBC84\uD2BC"
+  m_Text: "\uC2A4\uD2B8\uB77C\uD1A0 \uCE90\uC2A4\uD130"
 --- !u!222 &1073074613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -852,8 +920,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525210378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 230, y: -46, z: 0}
-  m_LocalScale: {x: 74.19154, y: 61.521065, z: 44.4}
+  m_LocalPosition: {x: 0.34, y: -1.41, z: 0}
+  m_LocalScale: {x: 71.24615, y: 78.45893, z: 44.4}
   m_Children: []
   m_Father: {fileID: 253189799}
   m_RootOrder: 0

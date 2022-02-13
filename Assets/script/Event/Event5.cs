@@ -55,7 +55,7 @@ public class Event5 : MonoBehaviour
         count++;
     }
 
-    public void button1() // 정답
+    /*public void button1() // 정답
     {
 
 
@@ -75,6 +75,7 @@ public class Event5 : MonoBehaviour
 
 
     }
+    */
 
     void Update()
 
@@ -91,7 +92,7 @@ public class Event5 : MonoBehaviour
 
                         NextDialogue();
                     else
-                        SceneManager.LoadScene("SecondEvent");
+                        SceneManager.LoadScene("FinalEvent1");
 
                 }
 

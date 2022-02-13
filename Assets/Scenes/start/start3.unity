@@ -320,10 +320,47 @@ MonoBehaviour:
   sprite_DialogueBox: {fileID: 446376964}
   txt_Dialogue: {fileID: 182647279}
   dialogue:
-  - dialogue: "\uB2F5 \uC874\uB098 \uD2C0\uB824\uC11C \uD63C\uB0A8"
-    cg: {fileID: 21300000, guid: 822978e239bc7f6408077a190fea3fd0, type: 3}
-  - dialogue: 121312124124
-    cg: {fileID: 21300000, guid: 9e0c4f003d921f54c9455b0999e8735a, type: 3}
+  - dialogue: "\uC120\uBC30 : \uBB50..? 1\uBC88\uC904\uBD80\uD130 \uB77C\uACE0 \uBB3C\uC5B4\uBD24\uC744\uD150\uB370?"
+    cg: {fileID: 0}
+  - dialogue: "\uC544\uCC28 ,\uAE30\uD0C0\uB294 1\uBC88\uC904\uC774 \uC544\uB7AB\uBD80\uBD84\uC774\uB2E4"
+    cg: {fileID: 0}
+  - dialogue: "\uAE30\uD0C0\uB97C \uC704\uC5D0\uC11C \uBC14\uB77C\uBCF4\uB2E4\uBCF4\uB2C8\uAE4C
+      \uC21C\uC11C\uB97C \uBC18\uB300\uB85C \uB9D0\uD55C\uAC83\uC774\uB2E4"
+    cg: {fileID: 0}
+  - dialogue: "\uC544! \uC8C4\uC1A1\uD574\uC694 \uC2E4\uC218 \uD588\uC5B4\uC694 \uC81C\uAC00
+      \uBC18\uB300\uB85C \uB9D0\uD55C\uAC83 \uAC19\uC544\uC694"
+    cg: {fileID: 0}
+  - dialogue: "\uC120\uBC30 : \uC120\uBC30\uB2D8 \uC774 \uC2E0\uC785\uC0DD\uCE5C\uAD6C
+      \uD29C\uB2DD\uBC95\uB3C4 \uBAA8\uB974\uB294\uB370\uC694?"
+    cg: {fileID: 0}
+  - dialogue: "\uB9D9\uC18C\uC0AC \uBC14\uB85C \uC606\uC5D0 \uC788\uB294 \uB0A8\uC790
+      \uC120\uBC30\uC5D0\uAC8C \uC77C\uB7EC \uBC14\uCE60\uC904\uC774\uC57C"
+    cg: {fileID: 0}
+  - dialogue: "\uADF8\uC21C\uAC04 \uBAA8\uB4E0 \uC0AC\uB78C\uB4E4\uC774 \uD29C\uB2DD\uC744
+      \uBA48\uCD94\uACE0 \uB098\uB97C \uCCD0\uB2E4\uBCF4\uC558\uB2E4"
+    cg: {fileID: 0}
+  - dialogue: "(\uC7E4\uB294 \uC5B4\uB5BB\uAC8C \uB3D9\uC544\uB9AC\uC5D0 \uB4E4\uC5B4\uC628\uAC70\uC57C...?)"
+    cg: {fileID: 0}
+  - dialogue: "\uC0AC\uB78C\uB4E4\uC774 \uC218\uADFC\uB300\uB294 \uC18C\uB9AC\uB4E4\uC774
+      \uB4E4\uB9B0\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "\uC73C\uC73C.. \uC5B4\uC11C \uC11C\uB458\uB7EC \uD29C\uB2DD\uC744
+      \uB9C8\uC838\uC57C\uACA0\uC5B4"
+    cg: {fileID: 0}
+  - dialogue: "\uAE34\uC7A5\uD574\uC11C \uC2E4\uC218\uB97C \uD588\uC744\uBFD0\uC778\uB370
+      \uC774\uB7F0 \uCC3D\uD53C\uB97C \uC8FC\uB2E4\uB2C8."
+    cg: {fileID: 0}
+  - dialogue: "\uC120\uBC30 : \uBE68\uB9AC \uB05D\uB0B4 \uB108\uB54C\uBB38\uC5D0
+      \uBAA8\uB450\uAC00 \uAE30\uB2E4\uB9AC\uACE0 \uC788\uC796\uC544."
+    cg: {fileID: 0}
+  - dialogue: "\uC544 \uC608...! \uC9C0\uAE08 \uB05D\uB0AC\uC2B5\uB2C8\uB2E4."
+    cg: {fileID: 0}
+  - dialogue: "\uD29C\uB2DD\uC744 \uB9C8\uCCE4\uC9C0\uB9CC \uC190\uC5D0\uC11C \uB540\uC774
+      \uD750\uB978\uB2E4"
+    cg: {fileID: 0}
+  - dialogue: "\uD569\uC8FC\uB97C \uBB34\uC870\uAC74 \uC131\uACF5\uC801\uC73C\uB85C
+      \uB9C8\uCCD0\uC57C \uD574..."
+    cg: {fileID: 0}
 --- !u!1 &446376962
 GameObject:
   m_ObjectHideFlags: 0
